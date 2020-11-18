@@ -1,0 +1,425 @@
+        .nav.navbar-nav {
+            border: 0px;
+            font-weight: bold;
+        }
+        
+        .logo {
+            padding-left: 60px;
+        }
+        
+        .navbar {
+            padding: 0px;
+            margin-left: 10px;
+        }
+        
+        .navbar-default .navbar-nav {
+            color: white;
+        }
+        
+        .Overview {
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+        }
+        
+        .content {
+            margin-right: 320px;
+        }
+        
+        .container {
+            padding-top: 40px;
+            position: relative;
+        }
+        
+        .CourseDescription {
+            margin-left: 25px;
+            overflow: hidden;
+        }
+        
+        .CourseDescription p {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            line-height: 1.7;
+        }
+        
+        .CourseIcon {
+            float: left;
+            overflow: hidden;
+            width: 89px;
+            border-radius: 45px;
+            display: block;
+            margin-right: 35px;
+            margin-top: 30px;
+        }
+        
+        .sidebarsplit {
+            width: 300px;
+            top: 0;
+            right: 0;
+        }
+        
+        .TakeCourse {
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+            text-align: center !important;
+            background: white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        
+        .TakeCourse p {
+            font-size: 20px;
+        }
+        
+        .appstoreimage {
+            padding-top: 20px;
+        }
+        
+        .learnweb {
+            margin-top: 20px;
+        }
+        
+        #learner {
+            margin-top: 20px;
+        }
+        
+        #figure {
+            font-weight: bold;
+            color: #4bc8b7;
+        }
+        
+        .ImageSide {
+            border-radius: 10px;
+            padding-top: 10px;
+        }
+        
+        .Inner {
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        .LessionArea {
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+            background: white;
+        }
+        
+        .Quiz {
+            float: right;
+            padding-left: 50px;
+        }
+        
+        .navbar {
+            margin: 0px !important;
+            padding: 0px;
+        }
+        
+        .custam.navbar-nav {
+            background-color: none;
+            border: 0px;
+            padding-top: 5px;
+            margin-left: 100px;
+        }
+        
+        .fa {
+            font-size: 22px;
+            color: #4bc8b7;
+            display: inline-block;
+        }
+        
+        #fontasome {
+            display: inline-block;
+            padding-left: 5px;
+        }
+        
+        .custamnav {
+            background-color: #3A464B;
+            border: 0px;
+            padding: 30px;
+        }
+        
+        .Lession {
+            padding-top: 15px;
+        }
+        
+        .Lession p {
+            display: inline;
+            color: #4bc8b7;
+            font-size: 17px;
+            font-weight: 600;
+            padding-top: 30px;
+        }
+        
+        .row p {
+            display: inline;
+            color: #4bc8b7;
+            font-size: 17px;
+            font-weight: 600;
+            padding-top: 30px;
+        }
+        
+        .row {
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 0px;
+            font-weight: bold;
+            margin-left: 0px;
+        }
+        
+        .rowTwo {
+            color: #333333;
+            background: #f0f0f0;
+            border-radius: 5px;
+            font-weight: bold;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        
+        .rowPlay {
+            padding: 20px;
+            background: #3a464b;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .ContainerFooter {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        
+        .rowPlay p {
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            padding-top: 10px;
+        }
+        
+        .Quicklink ul {
+            list-style: none;
+            font-weight: 600;
+            padding: 16px;
+        }
+        
+        #footerhome {
+            color: gray;
+        }
+        
+        #SocialLearn {
+            font-weight: bold;
+            padding-top: 25px;
+        }
+        
+        #para {
+            font-weight: bold;
+            color: gray;
+            font-style: italic;
+            font-size: 14px;
+        }
+        
+        .btn {
+            margin-right: 40px;
+            margin-left: 0px;
+            background: #24aa98;
+            margin-top: 5px;
+            margin-left: 30px;
+        }
+        
+        .ContainerFooter {
+            padding-bottom: 50px;
+        }
+        
+        .active.home a {
+            background-color: transparent !important;
+        }
+        /* Extra small devices (phones, 600px and down) */
+        
+        @media only screen and (max-width: 479px) {
+            body,
+            html {
+                overflow-x: hidden;
+            }
+            .head,
+            .All.in.one,
+            .input-group,
+            .input-group-addon.custm {
+                font-size: 11px;
+                font-weight: 400;
+            }
+            .btn.btn-info.custm {
+                width: 90%;
+            }
+            .btn-info {
+                width: 90%;
+            }
+            .img {
+                width: 100%;
+                height: 100%;
+            }
+            .btn.btn-primary-custamTrial {
+                width: 60%;
+            }
+            .btn.btn-primary-custamPricingDetail {
+                width: 70%;
+            }
+            .container-fluid .navbar-header {
+                margin: auto;
+            }
+            .logo img {
+                padding-top: 5px;
+                margin-top: 5px;
+                padding-left: 2px;
+            }
+            .paragraph {
+                width: 90%;
+            }
+            .Explore.below.paragraph {
+                width: 90%;
+            }
+            .manage.all.para,
+            .Automate.and.manage.para,
+            .Manage.all.your.projects.para,
+            .start.your.free.trial.para {
+                width: 94%;
+            }
+            .img.col-md-6 img {
+                width: 100%;
+                height: auto;
+            }
+            .all.right,
+            p {
+                padding: 15px;
+            }
+            .form-control-emailcustm {
+                width: 100%;
+            }
+            .input-group-addon.custm.btnn {
+                width: 30%;
+            }
+            .parafooter,
+            p {
+                width: 101%;
+                padding: 0px;
+            }
+            .logo.footer {
+                width: 60%;
+            }
+            .navbar-default .navbar-toggle {
+                margin-top: 18px;
+                padding: 6px 8px;
+                padding-top: 6px;
+                padding-right: 6px;
+                padding-bottom: 6px;
+                padding-left: 6px
+            }
+            .projectInne {
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .row {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .twothousandusers .pricingInner {
+                margin-top: 15px;
+            }
+            .thirdtab-morethan2k-user .pricingInner {
+                margin-top: 15px;
+            }
+            .parent.col-md-12 {
+                padding-top: 0px;
+            }
+            .copyright {
+                padding-right: 40px;
+                margin-right: 40px;
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+        }
+        /* Small devices (portrait tablets and large phones, 600px and up) */
+        
+        @media only screen and (max-width: 400px) {
+            .content {
+                margin: 0px;
+                padding: 0px;
+            }
+            .CourseIcon {
+                float: none;
+                margin-left: 64px;
+                margin-top: 0px;
+            }
+            .TakeCourse {
+                margin-top: 30px;
+            }
+            .Quicklink {
+                text-align: center;
+            }
+            .Footer {
+                text-align: center;
+            }
+            .logo {
+                padding-left: 0px;
+            }
+        }
+        /* Extra small devices (phones, 600px and down) */
+        
+        @media only screen and (max-width: 600px) {
+            .TakeCourse {
+                margin-top: 30px;
+            }
+            .custamnav {
+                padding: 0px;
+            }
+            .CourseIcon {
+                float: none;
+                margin-top: 0px !important;
+                margin-left: 40px;
+            }
+            .CourseIcon img {
+                margin-left: 40px;
+                padding: 0px;
+                margin-top: 0px !important;
+            }
+            .copyright {
+                padding-top: 10px;
+                padding-left: 30px;
+            }
+            .socialAccounts img {
+                width: 100%;
+            }
+            .Footerlogo img {
+                padding-left: 14px !important;
+            }
+            .btn {
+                margin-left: 0px;
+            }
+        }
+        /* Medium devices (landscape tablets, 768px and up) */
+        
+        @media only screen and (min-width: 768px) {
+            .Lessionsidebar {
+                padding-top: 30px;
+            }
+            .TakeCourse {
+                margin-top: 30px;
+            }
+            .TakeCourse p {
+                padding-top: 10px;
+            }
+            .rowThree {
+                padding-top: 20px;
+            }
+            .copyright {
+                text-align: center;
+                padding-right: 0px;
+            }
+            .container-fluid {
+                padding: 0px;
+                margin: 0px;
+            }
+            .Quicklink ul {
+                padding-left: 90px;
+            }
+        }

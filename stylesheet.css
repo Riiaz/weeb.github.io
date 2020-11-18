@@ -1,0 +1,291 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #03080c !important;
+}
+
+.top-bar {
+    background: #00a79f;
+    height: 34px;
+}
+
+.top-bar a {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-top: 2px;
+}
+
+.navbar {
+    background: none;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    border: 0px;
+    box-shadow: 0 .5rem .5rem rgb(0, 0, .1);
+    z-index: 2;
+}
+
+.container {
+    padding: 18px;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+    padding-left: 50px;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.navbar-brand img {
+    width: 90%;
+    padding-top: 13px;
+}
+
+.collapse {
+    padding: 20px;
+}
+
+#myNavbar {
+    padding: 20px;
+}
+
+#myNavbar li a:hover {
+    color: #00a79f !important;
+}
+
+.nav {
+    padding-left: 40px;
+}
+
+.nav:hover li {
+    color: black !important;
+}
+
+.btn {
+    padding: 3.5px;
+    margin: 0px;
+    background-color: #00a79f;
+}
+
+.input-group {
+    padding-right: 30px;
+}
+
+.active a {
+    background: none !important;
+    color: #4b4848 !important;
+}
+
+.dropdown-menu {
+    background-color: none;
+    font-weight: 600;
+}
+
+.dropdown-menu li a {
+    font-weight: 600;
+    color: white;
+    padding: 6px;
+    letter-spacing: 1.5px;
+}
+
+.navbar-nav li a {
+    color: black !important;
+}
+
+.dropdown-toggle {
+    background: none !important;
+}
+
+#slideshow {}
+
+.carousel-inner {
+    max-height: 41rem !important;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 54px;
+    transform: translateY(4%);
+    text-transform: uppercase;
+}
+
+.bg-custam {
+    background-color: rgba(0, 0, 0, 0.568)!important;
+    color: white;
+    border-radius: 1rem;
+    padding: 10px;
+}
+
+.bg-custam h1 {
+    margin: 2px;
+}
+
+.row {
+    width: 35%;
+    padding-top: 40px;
+}
+
+.btn.btn-danger {
+    background: #e0302c !important;
+    color: white !important;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.btn.btn-primary {
+    background: #00a79f!important;
+    color: white !important;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.carousel-caption h1 {
+    font-size: 3.8rem;
+    font-weight: bold;
+    padding-top: 2px;
+    text-shadow: .1rem .1rem .3rem rgb(0, 0green, 1blue);
+}
+
+
+/* News Section */
+
+.text-center {
+    padding-top: 8px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    color: #515151;
+    text-decoration: underline;
+}
+
+.row-inner {
+    width: 80%;
+    margin: auto;
+}
+
+.row-inner {
+    font-size: 18px;
+}
+
+.container-news {
+    padding: 22px;
+    padding-top: 30px;
+}
+
+.btn-btn-outline-dark {
+    color: #00a79f;
+    font-size: 18px;
+}
+
+.thumbnail {
+    width: 100%;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    -webkit-transition: all 0.5s ease;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.4);
+}
+
+#gallery {
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+#Demo {
+    padding-left: 20px;
+}
+
+#demobtn {
+    background: none !important;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px !important;
+}
+
+.btn-btn-outline-light {
+    border: solid;
+    margin-left: 35px;
+    padding: 2px;
+    border-color: #00a79f;
+}
+
+#takedemo {
+    padding-bottom: 20px !important;
+    padding: 0px;
+}
+
+.demo {
+    margin-top: 25px;
+}
+
+#footer {
+    background-color: #515151 !important;
+    padding-top: 20px;
+    margin-top: 35px;
+    padding-bottom: 12px;
+}
+
+#quicklinks,
+h4 {
+    color: white !important;
+    padding-top: 2px;
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.footer-links {
+    color: white;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+
+/* Mobile responsive */
+
+@media only screen and (max-device-width: 480px) {
+    .navbar-brand {
+        padding: 2px;
+    }
+    .navbar-brand img {
+        width: 70% !important;
+    }
+    .navbar-toggle {
+        padding: 3px;
+        margin-top: 20px;
+    }
+    .text-center {
+        font-size: 28px;
+        padding: 0px;
+    }
+    .container-news {
+        padding: 2px;
+        padding-top: 10px;
+    }
+    #gallery {
+        font-size: 28px;
+        padding-left: 29px;
+        margin-top: 2px;
+        margin-bottom: 0px;
+    }
+    .thumbnail {
+        margin-bottom: 0px;
+    }
+    .container {
+        text-align: center;
+    }
+    #quicklinks {
+        margin-top: 0px;
+    }
+    .navbar-header {
+        padding-bottom: 5px;
+    }
+    #call {
+        font-size: 8px !important;
+    }
+}
